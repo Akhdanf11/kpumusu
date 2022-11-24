@@ -11,12 +11,15 @@
           body{
             background-image: url(assets/img/bg.png);
           }
+          #brand{
+            max-width: 25%;
+          }
         </style>
     </head>
     <body>
       <nav class="navbar navbar-expand-lg navbar-light border-bottom sticky-sm-top" style="height: 80px;">
         <div class="container-fluid">
-            <a class="navbar-brand fw-bold text-danger fs-4" href="index.html"><img src="assets/img/logo.png" alt="" width="70" height="70"> KPUM USU</a>
+            <a class="navbar-brand fw-bold text-danger fs-4" href="index.html"><img src="assets/img/logo.png" id="brand" class="img-fluid" alt="" width="70" height="70"> KPUM USU</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -46,18 +49,18 @@
 
       <div class="container-fluid" id="home">
         <div class="row align-items-md-stretch mt-lg-4 wow fadeInUp">
-          <div class="h-100 p-2 pb-4 border rounded-3 w-75 mx-auto text-center shadow-lg" style="background-image: url(assets/img/bg-2.png);">
+          <div class="p-2 pb-4 border rounded-3 w-75 mx-auto text-center shadow-lg" style="background-image: url(assets/img/bg-2.png);">
             <h1 class="text-danger fw-bolder my-lg-3" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">KELOMPOK ASPIRASI MAHASISWA</h1>
             <hr class="p-1 w-50 mx-auto">
           </div>
         </div>
       </div>
 
-      <div class="container">
+      <div class="container mb-lg-5">
           <div class="row align-items-md-stretch mt-lg-4 mx-auto wow fadeInUp text-dark fs-3 fw-bold text-uppercase text-center">
               <div class="col-md-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/img/logo_rabbani.png" class="card-img-top" alt="...">
+                <div class="card">
+                    <img src="assets/img/logo_rabbani.png" class="card-img-top" alt="gambar_kam">
                     <div class="card-body">
                       <p class="card-text">Rabbani</p>
                     </div>
@@ -65,8 +68,8 @@
               </div>
 
               <div class="col-md-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/img/logo_perubahan.jpg" class="card-img-top" alt="...">
+                <div class="card">
+                    <img src="assets/img/logo_perubahan.jpg" class="card-img-top" alt="gambar_kam">
                     <div class="card-body">
                       <p class="card-text">perubahan</p>
                     </div>
@@ -74,8 +77,8 @@
               </div>
 
               <div class="col-md-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/img/logo_kolega.jpg" class="card-img-top" alt="...">
+                <div class="card">
+                    <img src="assets/img/logo_kolega.jpg" class="card-img-top" alt="gambar_kam">
                     <div class="card-body">
                       <p class="card-text">kolega</p>
                     </div>
@@ -83,7 +86,7 @@
               </div>
 
               <div class="col-md-3">
-                <div class="card" style="width: 18rem;">
+                <div class="card">
                     <img src="assets/img/logo_madani.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <p class="card-text">madani</p>
@@ -92,18 +95,19 @@
               </div>
           </div>
       </div>
-      <div class="container-fluid bg-dark">
+
+      <div class="container-fluid bg-dark ">
         <footer class="py-5 mx-lg-5 text-light">
           <div class="row">
             <div class="col mb-3">
-              <ul class="list-unstyled d-flex border-bottom w-50">
-                <li class="ms-3"><a class="nav-link link-light fs-4" href="https://www.instagram.com/kpumusu/"><i CLASS="fab fa-instagram"></i> kpumusu</svg></a></li>
-                <li class="ms-3"><a class="nav-link link-light fs-4" href="mailto:kpumusu@gmail.com"><i CLASS="fa fa-envelope"></i> kpumusu</svg></a></li>
+              <ul class="list-unstyled d-flex border-bottom">
+                <li><a class="nav-link link-light fs-4" href="https://www.instagram.com/kpumusu/"><i CLASS="fab fa-instagram"></i> kpumusu</svg></a></li>
+                <li><a class="nav-link link-light fs-4" href="mailto:kpumusu@gmail.com"><i CLASS="fa fa-envelope"></i> kpumusu</svg></a></li>
               </ul>
               <p class="m-lg-4">&copy; KPUMUSU 2022. All rights reserved.</p>
             </div>
             <div class="col-6 col-md-2 mb-3">
-              <h5>HOME SECTION</h5>
+              <h5>HOME</h5>
               <ul class="nav flex-column">
                 <li class="nav-item mb-2"><a href="#home" class="nav-link p-0 text-muted">Home</a></li>
               </ul>
@@ -118,6 +122,8 @@
               </ul>
             </div>
           </div>
+      
+
         </footer>
       </div>
         <script src="assets/js/wow.js"></script>     
